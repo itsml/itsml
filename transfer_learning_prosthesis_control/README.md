@@ -1,3 +1,5 @@
+# Running the notebook
+
 Activate the its-ml python envrionment:
 
 > `source activate its-ml`
