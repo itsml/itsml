@@ -36,11 +36,11 @@ When you are done studying the code, exit the virtual environment, uninstall it 
 
 Create a virtual environment using conda:
 
-> `conda create -n conda_its-ml python=3.7`
+> `conda create -n its-ml python=3.7`
 
 Activate the its-ml python environment:
 
-> `conda activate conda_its-ml`
+> `conda activate its-ml`
 
 Install the necessary packages with conda:
 
