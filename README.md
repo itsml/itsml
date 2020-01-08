@@ -8,7 +8,7 @@ This repository contains the code of all notebooks presented on our homepage, ex
 
 ## Installation
 
-To execute any of the notebooks, set up a virtual python environment either using virtualenv [(installation guide)](https://virtualenv.pypa.io/en/stable/installation/) or conda [(installation guide)](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
+As each notebook requires specific dependencies, we suggest to set up a virtual python environment for running individual notebooks. 
+Instructions on how to do so either using virtualenv [(installation guide)](https://virtualenv.pypa.io/en/stable/installation/) or conda [(installation guide)](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) can be found within the README.md of the respective notebook.
 
-1. Call the environment 'its-ml', so the kernel will be pre-selected in the notebooks
-2. The notebooks are tested on python 3.7
+Note that all notebooks were tested on python 3.7.
