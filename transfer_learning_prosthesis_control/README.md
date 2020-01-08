@@ -1,6 +1,6 @@
 # Running the notebook
 
-Activate the its-ml python environment:
+Activate a virtual environment using either virtualenv or conda.
 
 ## virtualenv
 
@@ -27,15 +27,16 @@ Start the notebook server:
 When you are done studying the code, exit the virtual environment, uninstall it as a kernel, and remove the corresponding folder:
 
 > `deactivate`
+
 > `jupyter kernelspec remove its-ml`
+
 > `rm -rf its-ml`
 
 ## conda
 
 Create a virtual environment using conda:
 
-> `conda create -n conda_its-ml python=3.7 anaconda`
-> `conda create -n conda_its-ml python=3.7 ipykernel`
+> `conda create -n conda_its-ml python=3.7`
 
 Activate the its-ml python environment:
 
@@ -49,8 +50,6 @@ Register the its-ml environment as a kernel for ipython notebooks:
 
 > `python3 -m ipykernel install --user --name=its-ml`
 
-jupyter kernelspec install /tmp/share/jupyter/kernels/python3
-
 Start the notebook server:
 
 > `jupyter notebook ./`
@@ -58,5 +57,7 @@ Start the notebook server:
 When you are done studying the code, exit the virtual environment, remove it, and uninstall it as a kernel:
 
 > `conda deactivate`
+
 > `conda env remove -n its-ml`
+
 > `jupyter kernelspec remove its-ml`
