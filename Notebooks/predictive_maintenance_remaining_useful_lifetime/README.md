@@ -14,7 +14,7 @@ Activate the its-ml python environment:
 
 Install the necessary packages with pip:
 
-> `pip3 install -r requirements.txt`
+> `pip install -r requirements.txt`
 
 Register the its-ml environment as a kernel for ipython notebooks:
 
