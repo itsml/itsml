@@ -1,4 +1,4 @@
-<img src="https://its-ml.de/wp-content/uploads/2019/06/ITS_ML_logo_v2-1568x527.png" width="400"/>
+<img src="ITS_ML_logo.png" width="400">
 
 # ITS.ML: Machine learning for intelligent technical systems
 
