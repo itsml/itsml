@@ -1,0 +1,6 @@
+numpy==1.22.0
+pandas==1.4.1
+sdv==0.13.1
+graphviz==0.19.1
+ipykernel==5.1.3
+ipython_genutils==0.2.0
